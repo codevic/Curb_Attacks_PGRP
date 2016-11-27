@@ -10,13 +10,7 @@ import java.sql.DriverManager;
 import com.nitin.utility.*;
 
 
-/**
- * @author Nitin Gudle
- *Apr 7, 2012 4:11:29 PM
- *Project:-Cloud_Computing(RC4)
- *Package:-com.nitin.database
- *File:-Database.java
- */
+
 public class Database 
 {
 	private static Database database = null;

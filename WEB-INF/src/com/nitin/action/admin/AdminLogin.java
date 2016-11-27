@@ -14,13 +14,7 @@ import javax.servlet.http.HttpSession;
 
 import com.nitin.dao.*;
 
-/**
- * @author Nitin Gudle
- *Aug 9, 2012 2:52:20 PM
- *Project:-ATT
- *Package:-com.nitin.action.user
- *File:-AdminLogin.java
- */
+
 public class AdminLogin extends HttpServlet 
 {
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws IOException

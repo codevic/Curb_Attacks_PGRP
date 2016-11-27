@@ -12,13 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.nitin.dao.UserDAO;
 
-/**
- * @author Nitin Gudle
- *Aug 13, 2012 1:15:22 PM
- *Project:-ATT
- *Package:-com.nitin.action.user
- *File:-DeleteI.java
- */
 public class DeleteI extends HttpServlet 
 {
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws IOException

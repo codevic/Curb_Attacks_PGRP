@@ -11,13 +11,7 @@ import com.nitin.database.*;
 
 
 
-/**
- * @author Nitin Gudle
- *Aug 9, 2012 2:56:17 PM
- *Project:-ATT
- *Package:-com.nitin.dao
- *File:-AdminDAO.java
- */
+
 public class AdminDAO 
 {
 	private static Connection connection = null;

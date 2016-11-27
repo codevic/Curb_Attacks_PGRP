@@ -13,13 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.nitin.dao.AdminDAO;
 
-/**
- * @author Nitin Gudle
- *Aug 11, 2012 4:22:23 PM
- *Project:-ATT
- *Package:-com.nitin.action.admin
- *File:-CreateUser.java
- */
+
 public class CreateUser extends HttpServlet 
 {
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws IOException

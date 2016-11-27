@@ -11,9 +11,7 @@ import java.sql.Statement;
 import com.nitin.database.Database;
 import com.nitin.utility.Utility;
 
-/**
- * @author Munna Kumar Singh
- */
+
 public class UserDAO 
 {
 	private static Connection connection = null;

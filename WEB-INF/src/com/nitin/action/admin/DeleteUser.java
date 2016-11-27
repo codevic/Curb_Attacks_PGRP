@@ -12,13 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.nitin.dao.AdminDAO;
 
-/**
- * @author Nitin Gudle
- *Aug 11, 2012 4:42:36 PM
- *Project:-ATT
- *Package:-com.nitin.action.admin
- *File:-DeleteUser.java
- */
+
 public class DeleteUser extends HttpServlet 
 {
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws IOException

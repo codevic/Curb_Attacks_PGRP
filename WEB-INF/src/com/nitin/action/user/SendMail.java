@@ -13,13 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.nitin.dao.UserDAO;
 
-/**
- * @author Nitin Gudle
- *Aug 10, 2012 3:29:51 PM
- *Project:-ATT
- *Package:-com.nitin.action.user
- *File:-SendMail.java
- */
+
 public class SendMail extends HttpServlet 
 {
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws IOException

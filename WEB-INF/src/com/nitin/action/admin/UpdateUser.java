@@ -12,13 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.nitin.dao.AdminDAO;
 
-/**
- * @author Nitin Gudle
- *Aug 13, 2012 11:14:53 AM
- *Project:-ATT
- *Package:-com.nitin.action.admin
- *File:-UpdateUser.java
- */
 public class UpdateUser extends HttpServlet 
 {
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws IOException

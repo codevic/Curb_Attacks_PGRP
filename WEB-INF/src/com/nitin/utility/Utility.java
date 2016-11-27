@@ -22,9 +22,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-/**
- * @author Munna Kumar Singh
- */
+
 public class Utility
 {
 	public static int parse(String str) 

@@ -16,10 +16,7 @@ import javax.servlet.http.HttpSession;
 import com.nitin.dao.UserDAO;
 import com.nitin.utility.Utility;
 
-/**
- * @author Munna Kumar Singh
- 
- */
+
 public class UserLogin extends HttpServlet 
 {
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws IOException

@@ -17,10 +17,7 @@ import com.nitin.dao.UserDAO;
 import com.nitin.utility.CL_SendMail;
 import com.nitin.utility.Utility;
 
-/**
- * @author Munna Kumar Singh
- 
- */
+
 public class Login extends HttpServlet 
 {
 	/* Send Mail Paarameters Starts */

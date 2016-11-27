@@ -12,13 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.nitin.dao.AdminDAO;
 
-/**
- * @author Nitin Gudle
- *Aug 13, 2012 11:22:16 AM
- *Project:-ATT
- *Package:-com.nitin.action.admin
- *File:-ChangePass.java
- */
+
 public class ChangePass extends HttpServlet 
 {
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws IOException
