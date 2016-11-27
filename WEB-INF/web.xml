@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	
+	
+	<servlet>	
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.nitin.action.admin.AdminLogin</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>	
+	</servlet-mapping>
+	
+	
+	
+	<servlet>	
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.nitin.action.admin.ChangePass</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>	
+	</servlet-mapping>
+	
+	
+	<servlet>	
+		<servlet-name>DeleteUser</servlet-name>
+		<servlet-class>com.nitin.action.admin.DeleteUser</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteUser</servlet-name>
+		<url-pattern>/DeleteUser</url-pattern>	
+	</servlet-mapping>
+	
+	
+	<servlet>	
+		<servlet-name>CreateUser</servlet-name>
+		<servlet-class>com.nitin.action.admin.CreateUser</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateUser</servlet-name>
+		<url-pattern>/CreateUser</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>UpdateUser</servlet-name>
+		<servlet-class>com.nitin.action.admin.UpdateUser</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateUser</servlet-name>
+		<url-pattern>/UpdateUser</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.nitin.action.user.UserLogin</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>	
+	</servlet-mapping>
+	
+	
+	<servlet>	
+		<servlet-name>SendMail</servlet-name>
+		<servlet-class>com.nitin.action.user.SendMail</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendMail</servlet-name>
+		<url-pattern>/SendMail</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>ChangePass1</servlet-name>
+		<servlet-class>com.nitin.action.user.ChangePass</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass1</servlet-name>
+		<url-pattern>/ChangePass1</url-pattern>	
+	</servlet-mapping>
+	
+	
+	<servlet>	
+		<servlet-name>DeleteI</servlet-name>
+		<servlet-class>com.nitin.action.user.DeleteI</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteI</servlet-name>
+		<url-pattern>/DeleteI</url-pattern>	
+	</servlet-mapping>
+		
+	
+	<servlet>	
+		<servlet-name>DeleteS</servlet-name>
+		<servlet-class>com.nitin.action.user.DeleteS</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteS</servlet-name>
+		<url-pattern>/DeleteS</url-pattern>	
+	</servlet-mapping>
+	
+	
+	<servlet>	
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.nitin.action.user.Login</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>	
+	</servlet-mapping>
+		
+</web-app>

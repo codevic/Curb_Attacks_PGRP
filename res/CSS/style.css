@@ -1,0 +1,77 @@
+body
+{
+	border: 1px solid #D9DDF0;
+	padding:10px;
+	background:-moz-linear-gradient(linear, 40% 20%, 50% 150%, from(#D9DDF0), to(#D9DDF0));
+    background:-webkit-gradient(linear, 40% 20%, 50% 150%, from(#D9DDF0), to(#D9DDF0));
+}
+.logo img
+{
+	padding:30px;
+	padding-bottom:10px;
+	width:920px;
+	height:100px;
+}
+.logo1 img
+{
+	padding:0px;
+	width:550px;
+	height:80px;
+}
+.login
+{
+	position:absolute;
+	top:180px;
+	left:350px;
+}
+#admin_login,#user_login
+{
+	position:absolute;
+	top:230px;
+	left:240px;
+	
+}
+#admin_msg,#user_msg
+{
+	position:absolute;
+	top:20px;
+	left:0px;
+	width:560px;
+	
+}
+.login a
+{
+	border:0;
+	padding:0 30px;
+	
+	color:#111;
+	text-shadow:#007dab 0 1px 0;
+	background:-moz-linear-gradient(linear, 40% 20%, 50% 150%, from(#D9DDF0), to(#D9DDF0));
+    background:-webkit-gradient(linear, 40% 20%, 50% 150%, from(#D9DDF0), to(#D9DDF0));
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	cursor:pointer;
+}
+.logout
+{
+	background:-moz-linear-gradient(linear, 40% 20%, 50% 150%, from(#D9DDF0), to(#D9DDF0));
+    background:-webkit-gradient(linear, 40% 20%, 50% 150%, from(#D9DDF0), to(#D9DDF0));
+    -moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	position:relative;
+	top:-40px;
+	left:580px;
+	display:inline;
+	padding:20px;
+	width:550px;
+	height:80px;	
+}
+.right
+{
+	position:absolute;
+	top:120px;
+	left:180px;
+	overflow:hidden;
+}
